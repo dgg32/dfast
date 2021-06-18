@@ -1,5 +1,7 @@
 # dfast and marker extraction
 
+This is the dfast annotation pipeline designed for the slurm system in DSMZ.
+
 ### Prerequisites
 
 0. dfast
@@ -18,5 +20,6 @@
 
 2. run marker_extract.py
 
-
+```
 find [bin_folder] -iname "*_dfast" -exec python marker_extract.py {} \; > [YourOutput.fasta]
+```
